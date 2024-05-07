@@ -1,0 +1,40 @@
+Model-View-ControllerArchitektur 
+
+1. **Model (Modell):**
+   - Das Modell repräsentiert die Daten und die Spiellogik des Spiels.
+   - Es enthält Klassen für Einheiten, Karten, Spieler, Geländetypen usw.
+   - Die Spiellogik, wie die Berechnung von Bewegungen, Angriffen und Siegbedingungen, wird hier implementiert.
+
+2. **View (Ansicht):**
+   - Die Ansicht ist für die Darstellung der Benutzeroberfläche verantwortlich.
+   - Sie enthält die GUI-Elemente wie Fenster, Menüs, Buttons, Spielbrett usw.
+   - Die Ansicht reagiert auf Benutzerinteraktionen und leitet Aktionen an den Controller weiter.
+
+3. **Controller (Steuerung):**
+   - Der Controller handhabt die Benutzerinteraktion und koordiniert die Kommunikation zwischen Modell und Ansicht.
+   - Er reagiert auf Benutzeraktionen, wie z.B. Klicken auf Buttons oder Bewegen von Einheiten, und aktualisiert entsprechend das Modell und die Ansicht.
+   - Der Controller ist auch für die Initialisierung des Spiels und das Handling von Spielzügen zuständig.
+
+
+Klassenstruktur Units:
+            ------------------------
+            |        Unit          |
+            ------------------------
+                   |      |
+           ---------      -------
+           |                     |
+    ----------------     ----------------
+    |   LandUnit   |     |    AirUnit   |
+    ----------------     ----------------
+           |                    |
+    ----------------     ----------------
+    |  Infantry    |     |    Fighter   |
+    ----------------     ----------------
+    | MechInfantry |     |   Bomber     |
+    ----------------     ----------------
+    |     Tank     |     | BattleCopter |
+    ----------------     ----------------
+    | MobileArtill.|     
+    ----------------
+    |  Anti-Air    |     
+    ----------------
