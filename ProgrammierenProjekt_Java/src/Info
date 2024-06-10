@@ -1,0 +1,15 @@
+Diese Datei "Inofs" soll einfach eine Sammlung von Ideen, Zwischenständen und Problemen sein
+
+-Terrains ist glaube unnötig aber wird aus sicherheit nicht gelöscht
+
+Idee bzgl. der Karte:
+
+Super Klasse Map speichert 2 dimensionales Array von Fields (kann man sich als Schachbrett vorstellen)
+Die 3 zu implementierenden Maps erben dann von Map und definieren ihre größe (breite, höhe) und definieren was auf den entsprechenden Fields ist
+
+
+
+
+
+
+
