@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1059.0" prefWidth="1562.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3e12d" height="1086.0" layoutY="-13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1568.0" AnchorPane.bottomAnchor="-14.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-6.0" AnchorPane.topAnchor="-13.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7058f8" height="253.0" layoutX="-1.0" layoutY="406.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="606.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7058f8" height="253.0" layoutX="968.0" layoutY="404.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7058f8" height="84.0" layoutX="419.0" layoutY="324.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="242.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7058f8" height="84.0" layoutX="915.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="242.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7058f8" height="84.0" layoutX="419.0" layoutY="658.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="242.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7058f8" height="84.0" layoutX="915.0" layoutY="655.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="242.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7058f8" height="132.0" layoutX="529.0" layoutY="741.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="132.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7058f8" height="132.0" layoutX="914.0" layoutY="737.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="132.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7058f8" height="132.0" layoutX="529.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="132.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7058f8" height="132.0" layoutX="914.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="132.0" />
+      <Line endX="323.7" layoutX="92.0" layoutY="403.0" startX="-100.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="326.3" endY="-3.0" layoutX="91.0" layoutY="663.0" startX="-100.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="319.0" endY="1.0" layoutX="1249.0" layoutY="403.0" startX="-91.19970703125" startY="1.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="320.0" endY="-6.1" layoutX="1248.0" layoutY="663.0" startX="-88.5" startY="-6.1" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="329.0" endY="1.0" layoutX="195.0" layoutY="326.0" startX="227.0" startY="1.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="354.0" endY="1.0" layoutX="307.0" layoutY="193.0" startX="225.3" startY="1.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="354.0" endY="1.0" layoutX="310.0" layoutY="871.0" startX="215.7" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="320.7" layoutX="203.0" layoutY="743.0" startX="215.7" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="348.0" endY="3.0" layoutX="313.0" layoutY="408.0" startX="295.5" startY="3.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="348.0" endY="3.0" layoutX="314.0" layoutY="657.0" startX="302.0" startY="6.1" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="322.7" endY="1.0" layoutX="832.0" layoutY="324.0" startX="218.8" startY="1.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="354.0" endY="1.0" layoutX="692.0" layoutY="194.0" startX="223.4" startY="1.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="354.0" endY="1.0" layoutX="695.0" layoutY="872.0" startX="215.8" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="326.2" layoutX="835.0" layoutY="744.0" startX="215.8" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="348.0" endY="3.0" layoutX="621.0" layoutY="409.0" startX="291.5" startY="1.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="348.0" endY="1.0" layoutX="622.0" layoutY="656.0" startX="291.5" startY="1.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="344.0" layoutX="767.0" layoutY="313.0" startX="-158.0" startY="100.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="344.0" layoutX="1128.0" layoutY="311.0" startX="-158.0" startY="100.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="310.4" layoutX="820.0" layoutY="95.0" startX="-158.0" startY="100.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="310.4" layoutX="1071.0" layoutY="97.0" startX="-158.0" startY="100.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="310.4" layoutX="823.0" layoutY="559.0" startX="-158.0" startY="100.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="310.4" layoutX="1068.0" layoutY="559.0" startX="-158.0" startY="100.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="310.4" layoutX="682.0" layoutY="558.0" startX="-158.0" startY="193.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="319.5" layoutX="1208.0" layoutY="554.0" startX="-158.0" startY="193.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="319.5" layoutX="1208.0" layoutY="3.0" startX="-158.0" startY="193.0" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="320.0" layoutX="684.0" layoutY="7.0" startX="-158.0" startY="187.2" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="320.0" layoutX="574.0" layoutY="76.0" startX="-158.0" startY="252.7" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="328.5" layoutX="575.0" layoutY="413.0" startX="-158.0" startY="252.7" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="320.0" layoutX="1317.0" layoutY="77.0" startX="-158.0" startY="249.4" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Line endX="-158.0" endY="328.5" layoutX="1318.0" layoutY="414.0" startX="-158.0" startY="252.7" stroke="#e7b13c" strokeLineCap="ROUND" strokeWidth="14.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Line>
+      <Polyline fill="#998269" layoutX="318.0" layoutY="759.0" points="-24.9, 19.6, 16.0, -60.4, 56.4, 19.6, -25.0, 19.6" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#ece7e3" layoutX="318.0" layoutY="755.0" points="1.4, -26.3, 16.0, -56.4, 30.5, -26.3, 1.4, -26.3" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#d68231" layoutX="271.0" layoutY="295.0" points="4.3, 3.2, 18.2, 3.2, 18.2, 42.5, 4.3, 42.5" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#00ad68" layoutX="283.0" layoutY="274.0" radius="30.0" stroke="#218649" strokeType="INSIDE" />
+      <Polyline fill="#d68231" layoutX="358.0" layoutY="307.0" points="4.3, 3.2, 18.2, 3.2, 18.2, 42.5, 4.3, 42.5" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#00ad68" layoutX="370.0" layoutY="286.0" radius="30.0" stroke="#218649" strokeType="INSIDE" />
+      <Polyline fill="#d68231" layoutX="322.0" layoutY="190.0" points="4.3, 3.2, 18.2, 3.2, 18.2, 42.5, 4.3, 42.5" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#00ad68" layoutX="334.0" layoutY="169.0" radius="30.0" stroke="#218649" strokeType="INSIDE" />
+      <Polyline fill="#d68231" layoutX="423.0" layoutY="227.0" points="4.3, 3.2, 18.2, 3.2, 18.2, 42.5, 4.3, 42.5" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#00ad68" layoutX="435.0" layoutY="206.0" radius="30.0" stroke="#218649" strokeType="INSIDE" />
+      <Polyline fill="#d68231" layoutX="1088.0" layoutY="873.0" points="4.3, 3.2, 18.2, 3.2, 18.2, 42.5, 4.3, 42.5" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#00ad68" layoutX="1100.0" layoutY="852.0" radius="30.0" stroke="#218649" strokeType="INSIDE" />
+      <Polyline fill="#d68231" layoutX="1160.0" layoutY="825.0" points="4.3, 3.2, 18.2, 3.2, 18.2, 42.5, 4.3, 42.5" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#00ad68" layoutX="1172.0" layoutY="804.0" radius="30.0" stroke="#218649" strokeType="INSIDE" />
+      <Polyline fill="#d68231" layoutX="1217.0" layoutY="882.0" points="4.3, 3.2, 18.2, 3.2, 18.2, 42.5, 4.3, 42.5" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#00ad68" layoutX="1229.0" layoutY="861.0" radius="30.0" stroke="#218649" strokeType="INSIDE" />
+      <Polyline fill="#d68231" layoutX="1228.0" layoutY="760.0" points="4.3, 3.2, 18.2, 3.2, 18.2, 42.5, 4.3, 42.5" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#00ad68" layoutX="1240.0" layoutY="739.0" radius="30.0" stroke="#218649" strokeType="INSIDE" />
+      <Polyline fill="#d68231" layoutX="1289.0" layoutY="814.0" points="4.3, 3.2, 18.2, 3.2, 18.2, 42.5, 4.3, 42.5" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#00ad68" layoutX="1301.0" layoutY="793.0" radius="30.0" stroke="#218649" strokeType="INSIDE" />
+      <Polyline fill="#998269" layoutX="414.0" layoutY="824.0" points="-24.9, 19.6, 16.0, -60.4, 56.4, 19.6, -25.0, 19.6" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#ece7e3" layoutX="414.0" layoutY="820.0" points="1.4, -26.3, 16.0, -56.4, 30.5, -26.3, 1.4, -26.3" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#998269" layoutX="315.0" layoutY="864.0" points="-24.9, 19.6, 16.0, -60.4, 56.4, 19.6, -25.0, 19.6" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#ece7e3" layoutX="315.0" layoutY="860.0" points="1.4, -26.3, 16.0, -56.4, 30.5, -26.3, 1.4, -26.3" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#998269" layoutX="229.0" layoutY="829.0" points="-24.9, 19.6, 16.0, -60.4, 56.4, 19.6, -25.0, 19.6" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#ece7e3" layoutX="229.0" layoutY="825.0" points="1.4, -26.3, 16.0, -56.4, 30.5, -26.3, 1.4, -26.3" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#998269" layoutX="1213.0" layoutY="186.0" points="-24.9, 19.6, 16.0, -60.4, 56.4, 19.6, -25.0, 19.6" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#ece7e3" layoutX="1213.0" layoutY="182.0" points="1.4, -26.3, 16.0, -56.4, 30.5, -26.3, 1.4, -26.3" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#998269" layoutX="1309.0" layoutY="251.0" points="-24.9, 19.6, 16.0, -60.4, 56.4, 19.6, -25.0, 19.6" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#ece7e3" layoutX="1309.0" layoutY="247.0" points="1.4, -26.3, 16.0, -56.4, 30.5, -26.3, 1.4, -26.3" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#998269" layoutX="1210.0" layoutY="291.0" points="-24.9, 19.6, 16.0, -60.4, 56.4, 19.6, -25.0, 19.6" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#ece7e3" layoutX="1210.0" layoutY="287.0" points="1.4, -26.3, 16.0, -56.4, 30.5, -26.3, 1.4, -26.3" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#998269" layoutX="1124.0" layoutY="256.0" points="-24.9, 19.6, 16.0, -60.4, 56.4, 19.6, -25.0, 19.6" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#ece7e3" layoutX="1124.0" layoutY="252.0" points="1.4, -26.3, 16.0, -56.4, 30.5, -26.3, 1.4, -26.3" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#998269" layoutX="424.0" layoutY="920.0" points="-24.9, 19.6, 16.0, -60.4, 56.4, 19.6, -25.0, 19.6" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#ece7e3" layoutX="424.0" layoutY="916.0" points="1.4, -26.3, 16.0, -56.4, 30.5, -26.3, 1.4, -26.3" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#998269" layoutX="243.0" layoutY="930.0" points="-24.9, 19.6, 16.0, -60.4, 56.4, 19.6, -25.0, 19.6" stroke="#998269" strokeType="INSIDE" />
+      <Polyline fill="#ece7e3" layoutX="243.0" layoutY="926.0" points="1.4, -26.3, 16.0, -56.4, 30.5, -26.3, 1.4, -26.3" stroke="#998269" strokeType="INSIDE" />
+      <ImageView fx:id="vector_51" fitHeight="1023.0" fitWidth="1408.0" layoutX="86.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@drawable/vector_50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="968.0" fitWidth="643.0" layoutX="116.0" layoutY="47.0">
+         <image>
+            <Image url="@drawable/vector_51.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="968.0" fitWidth="653.0" layoutX="809.0" layoutY="45.0">
+         <image>
+            <Image url="@drawable/vector_52.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
