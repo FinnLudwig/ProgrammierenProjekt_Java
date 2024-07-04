@@ -2,7 +2,7 @@ package maps;
 
 import units.TerrainType;
 
-public class Field {// class Field, a class that represents the fields of the map
+public class Field {// sollte ich Field noch truppen objekte hinzufügen?
 	// attributes
 	private int x;
 	private int y;

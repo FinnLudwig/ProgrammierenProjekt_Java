@@ -93,8 +93,10 @@ public abstract class Units {
 		// Reduce the target's health
 	}
 	
-	public void die() {
+	public void die() {//musst dafür erstmal mehr gedanken über game machen 
 		// Remove the unit from the game
+		// Set the location to unoccupied
+		
 	}
 	
 	public void receiveDamage(int health, int damageopponent) {
