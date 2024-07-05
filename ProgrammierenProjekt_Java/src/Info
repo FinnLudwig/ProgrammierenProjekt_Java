@@ -9,6 +9,14 @@ Die 3 zu implementierenden Maps erben dann von Map und definieren ihre größe (
 
 
 
+To Do:
+-Units fertigstellen -----check-----
+-einzelnen Units anpassen (Damage Chart etc.) -to do-
+-Map implementieren -----check-----
+-Field implementieren -----check-----
+-Game implementieren -----check-----
+-round implementieren 	    -----check-----
+-players implementieren -----check-----
 
 
 

@@ -1,8 +1,6 @@
 package units;
 import java.util.Map;
-import maps.Field;
 import maps.GameMap;
-import java.util.HashMap;
 
 public abstract class Units {
 	// Attributes: Price, Health, Damage, AttackRange, MovementRange, Location, Type, MovementChart, AttackChart
@@ -56,9 +54,10 @@ public abstract class Units {
         return movementcost;
     }
 	
-	public void move(int movementRange, int xdestination, int ydestination) { //This method moves the unit to the destination, reduce movementrange, set destination to occupied
+	public void move(int xdestination, int ydestination) { //This method moves the unit to the destination, reduce movementrange, set destination to occupied
         int xd = xdestination;
         int yd = ydestination;
+        int movementRange = getMovementRange();
 		int movementcost = getpath(xdestination, ydestination);
 		
 		//Check if the destination is empty
@@ -72,7 +71,7 @@ public abstract class Units {
 	        System.out.println("Destination is out of range.");
 	        return;
 	    }
-
+	    
 	    // Move the unit
 	    setX(xd);
 	    setY(yd);
@@ -84,25 +83,51 @@ public abstract class Units {
 	    gameMap.getField(xd, yd).setIsOccupied(true);
 	}
 	
-	public void attack(int locationself, int locationtarget, int attackRange, Map<TerrainType, Integer> damageChart) {
-		// Get target location 
-		// Get self location
-		// Check if the target is within the attack range
-		// Get the opponent type of the target
-		// Get the damage from the damage chart
-		// Reduce the target's health
+	public void attack(Units target) { //This method attacks the target, reduce target's health
+		//Get
+		int attackRange = getAttackRange();
+		Map<OpponentType, Integer> damageChart = getDamageChart();
+		
+		//Get target location
+		int targetX = target.getX();
+		int targetY = target.getY();
+		
+		//Get self location
+		int selfX = getX();
+		int selfY = getY();
+		
+		//Check if the target is within the attack range
+		if (Math.abs(targetX - selfX) > attackRange || Math.abs(targetY - selfY) > attackRange) {
+			System.out.println("Target is out of range.");
+			return;
+		}
+		//Get the opponent type of the target
+		String opponentType = target.getType();
+		
+		//Get the damage from the damage chart
+		int damage = damageChart.get(opponentType);
+		
+		//Reduce the target's health
+		target.setHealth(target.getHealth() - damage);
+		
+
 	}
 	
-	public void die() {//musst dafür erstmal mehr gedanken über game machen 
-		// Remove the unit from the game
+	public void die() { //This method removes the unit from the game, and sets the location to unoccupied
 		// Set the location to unoccupied
+		gameMap.getField(getX(), getY()).setIsOccupied(false);
+		// Remove the unit from the game
+		gameMap.removeUnit(this);
 		
 	}
 	
-	public void receiveDamage(int health, int damageopponent) {
+	public void receiveDamage(int health, int damageopponent) { //This method reduces the unit's health, check if the unit is
 		// Reduce the unit's health
-		// Check if the unit is dead
-		// if dead, call die()
+		this.health -= damageopponent;
+		// Check if the unit is dead, if yes call  die
+		if (this.health <= 0) {
+            die();
+            }
 	}
 	
 	// Constructor
