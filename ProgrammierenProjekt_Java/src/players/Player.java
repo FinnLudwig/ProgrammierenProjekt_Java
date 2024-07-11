@@ -22,6 +22,14 @@ public class Player {
 		numberOfUnits--;
 	}
 	
+	//buyUnit
+	public void buyUnit(Units unit) {
+		if (money >= unit.getPrice()) {
+			money -= unit.getPrice();
+			addUnit(unit);
+		}
+	}
+	
 	//Konstruktor
 	public Player(String name) {
 		this.name = name;

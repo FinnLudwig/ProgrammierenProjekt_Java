@@ -5,7 +5,7 @@ import maps.GameMap;
 public abstract class Units {
 	// Attributes: Price, Health, Damage, AttackRange, MovementRange, Location, Type, MovementChart, AttackChart
 	private int price;
-	private int health;
+	private int health = 100;
 	private int damage;
 	private int attackRange;
 	private int movementRange;
@@ -16,9 +16,18 @@ public abstract class Units {
 	private Map<OpponentType, Integer> damageChart;
 	private GameMap gameMap;
 	
+	// Constructor
+    public Units(int x, int y) {
+        this.X = x;
+        this.Y = y;
+    }
+	
+	
 	// Methods: move(MovementRange, destination, location, movementChart), attack(locationself, locationtarget, AttackRange, damageChart), die(), 
 	// receiveDamage(health, damageopponent), getpath(location, destination)
 	
+
+
 	public int getpath (int xdestination, int ydestination) { //This method calculates the movementcost of the path from the current location to the destination, return movementcost
         int xl = getX();
         int yl = getY();
@@ -130,21 +139,7 @@ public abstract class Units {
             }
 	}
 	
-	// Constructor
-	
-	public Units(int price, int health, int damage, int attackRange, int movementRange, int x, int y, String type,
-			Map<TerrainType, Integer> movementChart, Map<OpponentType, Integer> damageChart) {
-		this.price = price;
-		this.health = health;
-		this.damage = damage;
-		this.attackRange = attackRange;
-		this.movementRange = movementRange;
-		this.X = x;
-		this.Y = y;
-		this.type = type;
-		this.movementChart = movementChart;
-		this.damageChart = damageChart;
-	}
+
 	
 	
 	
@@ -152,9 +147,7 @@ public abstract class Units {
 	// Getters and Setters
 	
 	//Price
-	public int getPrice() {
-		return price;
-	}
+	public abstract int getPrice();
 	
 	public void setPrice(int price) {
 		this.price = price;
@@ -188,9 +181,7 @@ public abstract class Units {
 	}
 	
 	//MovementRange
-	public int getMovementRange() {
-		return movementRange;
-	}
+	public abstract int getMovementRange();
 	
 	public void setMovementRange(int movementRange) {
 		this.movementRange = movementRange;
@@ -214,27 +205,21 @@ public abstract class Units {
 		this.Y = Y;
 	}
 	//Type
-	public String getType() {
-		return type;
-	}
+	public abstract String getType();
 	
 	public void setType(String type) {
 		this.type = type;
 	}
 	
 	//MovementChart
-	public Map<TerrainType, Integer> getMovementChart() {
-		return movementChart;
-	}
+	public abstract Map<TerrainType, Integer> getMovementChart();
 	
 	public void setMovementChart(Map<TerrainType, Integer> movementChart) {
 		this.movementChart = movementChart;
 	}
 	
 	//DamageChart
-	public Map<OpponentType, Integer> getDamageChart() {
-		return damageChart;
-	}
+	public abstract Map<OpponentType, Integer> getDamageChart();
 	
 	public void setDamageChart(Map<OpponentType, Integer> damageChart) {
 		this.damageChart = damageChart;
