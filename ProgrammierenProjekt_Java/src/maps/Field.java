@@ -1,5 +1,5 @@
 package maps;
-
+import units.Units;
 import units.TerrainType;
 
 public class Field {
@@ -10,6 +10,7 @@ public class Field {
 	private boolean isHighlighted;
 	private boolean isPath;
 	private TerrainType terrainType;
+	private Units unit;
 
 	// constructor
 	public Field(int x, int y) {
@@ -21,6 +22,21 @@ public class Field {
 	}
 
 	// Getters and Setters
+	// Unit
+	public Units getUnit() {
+		return unit;
+	}
+	
+	public void setUnit(Units unit) {
+        this.unit = unit;
+        
+        if (unit != null) {
+            this.isOccupied = true;
+        } else {
+            this.isOccupied = false;
+        }
+        }
+	
 	// X
 	public int getX() {
 		return x;

@@ -28,9 +28,9 @@ public abstract class Units {
 	
 
 
-	public int getpath (int xdestination, int ydestination) { //This method calculates the movementcost of the path from the current location to the destination, return movementcost
-        int xl = getX();
-        int yl = getY();
+	public int getpath (Units unit, int xdestination, int ydestination) { //This method calculates the movementcost of the path from the current location to the destination, return movementcost
+        int xl = unit.getX();
+        int yl = unit.getY();
         int xd = xdestination;
         int yd = ydestination;
         int x = xl; //x is the current x-coordinate
@@ -67,7 +67,7 @@ public abstract class Units {
         int xd = xdestination;
         int yd = ydestination;
         int movementRange = getMovementRange();
-		int movementcost = getpath(xdestination, ydestination);
+		int movementcost = getpath(selectedunit, xdestination, ydestination);
 		
 		//Check if the destination is empty
 		if (gameMap.getField(xd, yd).getIsOccupied() != true) {  
